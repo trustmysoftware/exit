@@ -1,6 +1,6 @@
 {
   "name": "exit-it",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "Simple wrapper for process.exit",
   "main": "index.js",
   "scripts": {
