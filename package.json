@@ -1,6 +1,6 @@
 {
   "name": "exit-it",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "description": "Simple wrapper for process.exit",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
     "exit-it": "./npx_entrypoint.js"
   },
   "keywords": ["exit", "close", "terminate", "quit", "halt", "end"],
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "url": "https://github.com/trustmysoftware/exit"
+  }
 }
