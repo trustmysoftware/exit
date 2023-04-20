@@ -1,0 +1,17 @@
+{
+  "name": "exit-it",
+  "version": "1.4.3",
+  "description": "Simple wrapper for process.exit",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js ; ([[ $? == 42 ]] && echo 'test success') || echo 'test failure'"
+  },
+  "author": "trustmysoftware",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "exit-it": "./npx_entrypoint.js"
+  },
+  "keywords": ["exit", "close", "terminate", "quit", "halt", "end"],
+  "preferGlobal": true
+}
