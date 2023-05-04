@@ -1,5 +1,5 @@
 import {exit as real_exit} from 'node:process';
-import { checkVersion } from './check-version';
+import { checkVersion } from './check-version.js';
 
 checkVersion()
 
