@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { exit } from "./index.js";
-import { checkVersion } from "./check-version.js";
+import { checkVersion } from "./check-version.mjs";
 
 checkVersion()
 

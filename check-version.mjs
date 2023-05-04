@@ -20,7 +20,7 @@ export const checkVersion = async () => {
     const packageObject = JSON.parse(fs.readFileSync(`${__dirname}/package.json`))
     const current_version = getVersion(packageObject)
 
-    if (current_version !== latest_version || true) {
+    if (current_version !== latest_version) {
         console.warn('A new version of exit-it is available!')
         console.warn(`latest version: ${latest_version}`)
         console.warn(`current version: ${current_version}`)
