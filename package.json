@@ -1,6 +1,6 @@
 {
   "name": "exit-it",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "Simple wrapper for process.exit",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "trustmysoftware",
   "license": "ISC",
   "type": "module",
+  "files": ["check-version.mjs"],
   "bin": {
     "exit-it": "./npx_entrypoint.js"
   },
