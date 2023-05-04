@@ -12,7 +12,7 @@ const getVersion = (node_package_object) => {
     return found
 }
 
-(async () => {
+export const checkVersion = async () => {
     const packageInfo = await (await fetch('https://registry.npmjs.org/exit-it')).json()
     const latest_version = packageInfo['dist-tags']?.latest
     console.log(latest_version)
@@ -25,4 +25,4 @@ const getVersion = (node_package_object) => {
         console.warn(`latest version: ${latest_version}`)
         console.warn(`current version: ${current_version}`)
     }
-})()
+}

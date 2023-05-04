@@ -1,10 +1,9 @@
 {
   "name": "exit-it",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Simple wrapper for process.exit",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node check-version.js",
     "test": "node test.js ; ([[ $? == 42 ]] && echo 'test success') || echo 'test failure'"
   },
   "author": "trustmysoftware",
